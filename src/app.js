@@ -37,7 +37,7 @@ const recursivelyParseTicks = (replay, buffer, cursor, tickSize ) => {
 	else { return recursivelyParseTicks(replay, buffer, nextCursor, sutils.readLittleEndianInt(buffer, cursor + tickSize + 4)) }
 }
 
-// MAIN ENTRY 
+// MAIN ENTRY
 replays.forEach((replay) => {
 	parseReplay(replay)
 	console.log("-"+ replay.name +  "\n\t | ticks - " + replay.ticks + " \n\t | seconds - ", replay.ticks / 8);
