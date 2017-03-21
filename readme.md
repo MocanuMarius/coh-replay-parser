@@ -1,3 +1,5 @@
+### No - recruiter area .... this is just some hard-coded utiliy for a friend :)
+
 (install nodejs for windows if you don't have it)
 
 open cmd in this folder and type
